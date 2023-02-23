@@ -18,3 +18,18 @@ project "VkBootstrap"
     {
         "%{VULKAN_SDK}/Include"
     }
+
+    filter "configurations:Debug"
+        defines "_DEBUG"
+        runtime "Debug"
+        symbols "on"
+    
+    filter "configurations:Release"
+        defines "_RELEASE"
+        runtime "Release"
+        optimize "on"
+    
+    filter "configurations:Dist"
+        defines "_DIST"
+        runtime "Release"
+        optimize "on"

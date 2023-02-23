@@ -1,4 +1,4 @@
-/* 
+﻿/* 
  * Copyright © 2021 Cody Goodson (contact@vibimanx.com)
  * Copyright © 2022 Charles Giessen (charles@lunarg.com)
  * 
